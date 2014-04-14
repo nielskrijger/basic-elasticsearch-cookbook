@@ -11,8 +11,8 @@ end
 
 describe "ElasticSearch Server" do
 
-  it "is listening on port 9600" do
-    expect(port(9600)).to be_listening
+  it "is listening on port 9200" do
+    expect(port(9200)).to be_listening
   end
 
   it "has a running service of elasticsearch" do
